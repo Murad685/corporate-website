@@ -11,6 +11,7 @@ body{
 #header{
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .overlay{
     content: "";
@@ -212,3 +213,111 @@ body{
 
 /* <!--===== Header start =====--> */
 
+/* <!--===== Main start =====--> */
+        /* < !--=====Section WhatWeDo start=====--> */
+.section-padding{
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.section-backgr {
+    background: #f4f9fc;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section-title h1{
+    font-size: 45px;
+    line-height: 1.17em;
+    margin: 0;
+    font-weight: 700;
+    color: #313131;
+}
+.section-title p{
+    padding-top: 15px;
+    color: #7a8595;
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0rem;
+    line-height: 30px;
+}
+
+
+.single-service {
+    background: #fff;
+    padding: 35px 50px 35px 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+.single-service:hover {
+    background: #fff;
+    box-shadow: 0px 16px 32px 0px rgb(196 203 255 / 30%);
+}
+.service-icon {
+    margin-bottom: 98px;
+}
+.service-icon {
+    font-size: 45px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #007bff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+
+.service-info{
+    padding-left: 28px;
+}
+.service-info h4{
+    color: #000;
+    font-size: 22px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.service-info h4::after, .service-info h4::before{
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 0px;
+    width: 40%;
+    background-color: #e2e0ff;
+    transition: all 0.4s ease-in-out 0s;
+    height: 3px;
+}
+.service-info h4::before{
+    background: #007bff;
+    z-index: 9;
+    width: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.single-service:hover h4::before {
+    width: 40%;
+    transition: .4s;
+    visibility: visible;
+    opacity: 1;
+}
+.service-info p{
+    color: #7a8595;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+        /* < !--=====Section WhatWeDo start=====--> */
+/* <!--===== Main end =====--> */
