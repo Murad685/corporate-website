@@ -326,7 +326,7 @@ a:hover {
 /* <!--===== Main end =====--> */
 
 #inter{
-    background: url(/img/bg2.jpg) center center/cover no-repeat fixed;
+    background: center center/cover no-repeat fixed;
     position: relative;
     overflow: hidden;
     padding-top: 110px;

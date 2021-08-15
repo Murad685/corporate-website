@@ -1,0 +1,20 @@
+@media screen and (max-width: 550px) {
+    .colbox {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width:551px) and (max-width:630px) {
+    .colbox {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .item {
+        justify-content: center;
+    }
+}
