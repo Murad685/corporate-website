@@ -10,3 +10,10 @@
 
 - Front-end texnologiyaları :
 
+  > HTML5
+
+  > CSS3
+
+  > Bootstarp
+
+  > JavaScript
